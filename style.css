@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #012030, #13678A );
+    background-attachment: fixed;
+    color: white;
+}
+
+.inicial {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    list-style: none;
+    text-shadow: 2px 2px 5px black;
+}
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 5px;
+    list-style: none;
+    text-shadow: 2px 2px 5px black;
+    text-align:center;
+    height: 180px;
+}
+.projects {
+    text-shadow: 2px 2px 5px black;
+}
+.projects img {
+    text-shadow: 2px 2px 5px black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
+    height: 500px;
+}
+header img {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none
+}
+main h1 {
+    text-shadow: 2px 2px 5px black;
+}
+
+main h2 {
+    text-shadow: 2px 2px 5px black;
+}
+
+main h3 {
+    text-shadow: 2px 2px 5px black;
+}
